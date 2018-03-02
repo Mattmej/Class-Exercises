@@ -1,0 +1,41 @@
+.styling {
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 10px;
+}
+
+.customtext_1 {
+    font-family: 'Bellefair', serif;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 5px;
+
+}
+
+.customtext_2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 12px;
+}
+
+input[id = testform]:focus {
+    background-color: yellow;
+}
+
+input[id=testform_2]:hover {
+    background-color: blue;
+}
+
+input[id = testform_3]:active {
+    background-color: green;
+}
+
+input[id = testform_4]:default {
+    background-color: red;
+}
