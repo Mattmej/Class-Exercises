@@ -1,0 +1,17 @@
+.sidebar {
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.space {
+    margin-bottom: 30px;
+}
+
+.pic-holder {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
