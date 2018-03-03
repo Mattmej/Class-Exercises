@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Band Arrays</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var bands = ["Sonata Arctica", "Children of Bodom", "Wu-Tang Clan", "Malice Mizer"];
+
+        // var faveBand = prompt("What is your favorite band?");
+
+        // if ( bands.indexOf(faveBand) == -1) {
+        //     alert("Nah.");
+        // }
+
+        // else {
+        //     alert("Yeah!");
+        // }
+
+        // console.log(faveBand);
+        // console.log(bands.indexOf(faveBand));
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        //What if we want to take into account lowercase entries as well as properly-capitalized ones?
+        //Here is what we would do.
+
+
+
+        // Converts our entry into a lowercase version (e.g. "Wu-Tang Clan" becomes "wu-tang clan")
+        var faveBand = prompt("What is your favorite band?").toLowerCase(); 
+
+        // Console entries
+        console.log(faveBand);
+        console.log( bands[0].toLowerCase());
+        console.log( bands[1].toLowerCase());
+        console.log( bands[2].toLowerCase());
+        console.log( bands[3].toLowerCase());
+
+
+        // If the lowercase band we entered is the same as one of the array entries (in lowercase), then the alert says "Yeah!"
+        if ( faveBand == bands[0].toLowerCase() || faveBand == bands[1].toLowerCase() || faveBand == bands[2].toLowerCase() || faveBand == bands[3].toLowerCase() ) {
+            alert("Yeah!");
+        }
+
+        // If the lowercase band we entered does NOT match any of the array entries (in lowercase)...
+        else {
+            alert("Nah.");
+        }
+    </script>
+</body>
+
+</html>
